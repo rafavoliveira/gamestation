@@ -194,7 +194,7 @@ main h1{
 }
 
 /*seletores de filtro*/
-section label{
+main section label{
     width: 100px;
     padding: 10px;
     display: block;
@@ -512,7 +512,7 @@ footer{
         font-size: 20px;
     }
 
-    section label{
+    main section label{
         width: 250px;
         padding: 10px;
         display: block;
