@@ -36,7 +36,7 @@
 
     <!--início-banner-->
     <section class="banner">
-        <img src="banner.png" alt="banner">
+        <img src="img/banner.png" alt="banner">
     </section>
     <!--fim-banner-->
 
@@ -57,10 +57,7 @@
     <main class="container">
         <h1>Conheça Nossos Cursos</h1>
         <section>
-            
-            <input type="radio" name="btn" id="btn_todos" checked>
-            <label for="btn_todos">Todos</label>
-            <input type="radio" name="btn" id="btn_frontend">
+            <input type="radio" name="btn" id="btn_frontend" checked>
             <label for="btn_frontend">Front-end</label>
             <input type="radio" name="btn" id="btn_backend">
             <label for="btn_backend">Back-end</label>
@@ -70,11 +67,14 @@
             <div class="clear"></div>
             
             <div id="gride-produtos">
-                <div class="card todos">
-                    <img src="" alt="">
+                <div class="card frontend">
+                    <a href="paginas/curso-html-e-css.html">
+                        <img src="img/html-css/1.png" alt="html e css">
+                    </a>
                     <div class="detalhes">
-                        <p>Lorem ipsum dolor sit amet consectetur.</p>
-                        <h3>R$20,00</h3>
+                        <p>HTML e CSS</p>
+                        <h3>R$97,00</h3>
+                        <a class="botao" href="paginas/curso-html-e-css.html">Ver Trilha</a>
                     </div>
                 </div>
                 <div class="card todos">
