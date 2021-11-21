@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Game Station</title>
+    <title>Trilha do Dev</title>
 </head>
 <body>
     <!--início-header-->
@@ -30,18 +30,62 @@
         </nav>
     </header>
     <!--fim-header-->
+
     <!--início-banner-->
     <section class="banner">
         <img src="banner.png" alt="banner">
     </section>
     <!--fim-banner-->
-    <h1>Siga a trilha da <span>#DevFriday</span></h1>
+
+    <div class="container">
+        <h1>Siga a trilha da <span>#DevFriday</span></h1>
+    </div>
+    
+    <!--início-blackfriday-->
     <section class="blackfriday">
-        <img src="#" alt="Trilha do Front">
-        <img src="#" alt="Jornada do Dev">
+        <div class="container">
+            <img src="#" alt="Trilha do Front">
+            <img src="#" alt="Jornada do Dev">
+        </div>
     </section>
-        <aside class="sidebar"></aside>
-        <section class="gride-produtos"></section>
-    <footer></footer>
+    <!--fim-blackfriday-->
+
+    <!--início-main-->
+    <main class="container">
+        <h1>Conheça Nossos Cursos</h1>
+        <section>
+            <input type="radio" name="btn" id="btn_todos" checked>
+            <label for="btn_todos">Todos os Produtos</label>
+            <input type="radio" name="btn" id="btn_frontend">
+            <label for="btn_frontend">Front-end</label>
+            
+            <div class="clear"></div>
+            
+            <div id="galeria">
+                <div class="card todos"></div>
+                <div class="card todos"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card todos"></div>
+                <div class="clear"></div>
+            </div>
+        </section>
+    </main>
+    <!--fim-main-->
+    <!--início-newsletter-->
+    <section class="newsletter">
+        <h3>Insira seu email e ganhe 10%OFF</h3>
+        <div class="captura-email">
+            <input type="text" placeholder="Insira seu melhor Email">
+            <a href="#"><i class="far fa-paper-plane"></i></a>
+        </div>
+    </section>
+    <!--fim-newsletter-->
+
+    <!--início-footer-->
+    <footer>
+        
+    </footer>
 </body>
 </html>

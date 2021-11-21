@@ -19,6 +19,15 @@ a{
     text-decoration: none;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
 /*Header*/
 header{
     background-color: #1a1a1a;
@@ -127,5 +136,110 @@ h1 span{
 .blackfriday{
     width: 100%;
     min-height: 300px;
+    background-color: #000;
+}
+
+/*Main*/
+main h1{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+#galeria{
+    min-height: 900px;
+}
+.card{
+    width: 320px;
+    height: 280px;
+    background-color: #ff0043;
+    margin: 10px;
+    float: left;
+    transition: all 300ms;
+}
+
+/*seletores de filtro*/
+section label{
+    width: 175px;
+    padding: 20px 10px;
+    display: block;
+    float: left;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+main section input:checked + label{
+    background-color: #586f7c;
+}
+
+main section input{
+    display: none;
+}
+
+#btn_frontend:checked ~ #galeria .todos{
+    display: none;
+}
+
+/*Newsletter*/
+.newsletter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+    min-height: 80px;
+}
+
+.newsletter h3{
+    color: #fff;
+    font-size: 22px;
+}
+
+.captura-email{
+    display: flex;
+    align-items: center;
+}
+
+.captura-email input{
+    width: 380px;
+    min-width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    transition: all 300ms;
+}
+
+.captura-email input:focus{
+    outline: 0;
+}
+
+.captura-email a{
+    width: 50px;
+    text-align: center;
+    border-radius: 0 20px 20px 0;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: -4px;
+    background-color: #fff;
+    padding: 10px;
+    color: #ff0043;
+    transition: all 300ms;
+}
+
+.captura-email a:hover{
+    background-color: #ff0043;
+    color: #fff;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 100px;
     background-color: #000;
 }
