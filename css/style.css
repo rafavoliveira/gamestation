@@ -541,7 +541,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 420px){
     .captura-email input{
         max-width: 300px;
         width: 250px;
