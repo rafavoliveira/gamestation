@@ -123,6 +123,14 @@ section #voltar:hover{
     transition: all 500ms;
 }
 
+.pagamento ul{
+    display: flex;
+}
+
+.pagamento li i{
+    font-size: 30px;
+}
+
 #foto2:checked ~ .img-principal .slide{
     margin-left: -100%;
 }
