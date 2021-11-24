@@ -146,7 +146,10 @@ h1 span{
 .blackfriday{
     width: 100%;
     min-height: 300px;
-    background-color: #000;
+}
+
+.blackfriday img{
+    width: 100%;
 }
 
 /*Main*/
@@ -172,7 +175,7 @@ main h1{
 }
 .card{
     width: 250px;
-    height: 280px;
+    height: 300px;
     background-color: #fff;
     box-shadow: 3px 6px 12px #000;
     margin: 10px;
