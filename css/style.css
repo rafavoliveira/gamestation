@@ -47,9 +47,11 @@ nav{
 }
 
 .logo{
-    width: 45px;
-    height: 45px;
-    background-color: #555;
+    width: 100px;
+    max-width: 100px;
+}
+.logo img{
+    width: 100%;
 }
 
 .menu{
@@ -461,6 +463,115 @@ footer{
     font-weight: bold;
 }
 
+/*------------------quem somos-------------------*/
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.imagem{
+    width: 30%;
+}
+
+.imagem img{
+    width: 100%;
+    max-width: 300px;
+}
+
+.texto{
+    width: 70%;
+}
+
+.texto p{
+    color: #fff;
+    text-align: justify;
+}
+
+section.container{
+    margin-bottom: 20px;
+}
+
+/*--------------Contato-----------*/
+.conteudo-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.formulario{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.formulario input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.formulario textarea{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    margin: 5px;
+}
+
+.formulario input:focus, .formulario textarea:focus{
+    outline: 0;
+}
+
+.formulario form button{
+    border: none;
+    background-color: #ff0043;
+    color: #fff;
+    padding: 15px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 300ms ease-in-out;
+}
+
+.formulario form button:hover{
+    background-color: #fff;
+    color: #ff0043;
+}
+
+.info{
+    border-left: 2px solid #ff0043;
+}
+
+.info ul{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info li{
+    color: #fff;
+    font-size: 20px;
+}
+.info li i{
+    color: #ff0043;
+    font-size: 25px;
+}
 /*Media queries*/
 
 @media screen and (max-width: 1133px){
@@ -485,6 +596,40 @@ footer{
         width: 100%;
         padding: 20px
     }
+
+    .imagem{
+        width: 96%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .imagem img{
+        max-width: 200px;
+    }
+
+    .texto{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+
+    .formulario form{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .info ul{
+        width: 70%;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 1000px){
@@ -501,6 +646,7 @@ footer{
     }
     nav .logo{
         width: 100%;
+        margin: 0 auto;
     }
 
     .menu{
@@ -566,3 +712,4 @@ footer{
         width: 98%;
     }
 }
+
