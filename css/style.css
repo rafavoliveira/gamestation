@@ -608,8 +608,12 @@ section.container{
     }
 
     .texto{
-        width: 90%;
+        width: 96%;
         margin: 0 auto;
+    }
+
+    .texto p{
+        margin: 10px 15px;
     }
 
     .formulario{
